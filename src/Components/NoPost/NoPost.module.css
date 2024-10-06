@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0; /* Light background for a clean look */
+  color: #333;
+}
+
+.icon {
+  font-size: 5rem;
+  color: #ff6347; /* Tomato color for an eye-catching icon */
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50; /* Darker text color */
+}
+
+.submessage {
+  font-size: 1.2rem;
+  color: #7f8c8d; /* Lighter gray for the submessage */
+}
+
+.getPostButton {
+  background-color: #3498db; /* Blue color for the button */
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.getPostButton:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px); /* Lift effect on hover */
+}

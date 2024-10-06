@@ -1,0 +1,32 @@
+.app_content {
+    display: flex;
+    flex-direction: column; 
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.toggleButton {
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    transition: background-color 0.3s ease; 
+}
+
+@media (min-width: 768px) {
+    .app_content {
+        flex-direction: row; 
+    }
+}
+
+.content {
+    width: 100%; 
+    padding: 16px; 
+    box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 8px; 
+    }
+}
